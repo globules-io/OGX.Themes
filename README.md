@@ -1,2 +1,2 @@
-# OGX.Skins
-Repository of skins for OGX.JS
+# OGX.THemes
+Repository of themes for OGX.JS
