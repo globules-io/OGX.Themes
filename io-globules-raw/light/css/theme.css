@@ -1,8 +1,8 @@
 .ogx_calendar .ogx_calendar_head_date .ogx_calendar_display_date{
-    color:#AAA;
+    color:#333;
 }
 .ogx_calendar .ogx_calendar_head_labels{
-    color:#AAA;
+    color:#333;
 }
 .ogx_calendar .ogx_calendar_selected_item{
     box-shadow:inset 0px 0px 0px 3px darkorange !important;
@@ -10,40 +10,44 @@
 /*LAYOUTS*/
 /*month days*/
 .ogx_calendar .ogx_calendar_layout_month_days{    
-    border:1px solid #444444;   
-    background-color: #333;   
+    border:1px solid #DDD;   
+    background-color:#E4E4E4;   
 }
 .ogx_calendar .ogx_calendar_layout_month_days_offset{
-    background-color: #222;
+    background-color:#222;
     color:#999;
     border-color:#282828;
 }
 .ogx_calendar .ogx_calendar_layout_month_days_today{
     background-color:darkslategray; 
+    color:#EEE;
 }   
 /*century decade*/
 .ogx_calendar .ogx_calendar_layout_century_decades{   
-    border:1px solid #444;   
-    background-color: #333; 
+    border:1px solid #DDD;   
+    background-color:#E4E4E4;
 }
 .ogx_calendar .ogx_calendar_layout_century_decades_current{
     background-color:#2f4f4f;
+    color:#EEE;
 }
 /*century years*/
 .ogx_calendar .ogx_calendar_layout_century_years{   
-    border:1px solid #444;    
-    background-color: #333;     
+    border:1px solid #DDD;   
+    background-color:#E4E4E4;
 }
 .ogx_calendar .ogx_calendar_layout_century_years_current{
    background-color:#2f4f4f;
+   color:#EEE;
 }
 /*decade years*/
 .ogx_calendar .ogx_calendar_layout_decade_years{    
-    border:1px solid #444;  
-    background-color: #333;  
+    border:1px solid #DDD;   
+    background-color:#E4E4E4;
 }
 .ogx_calendar .ogx_calendar_layout_decade_years_current{
     background-color:#2f4f4f;
+    color:#EEE;
 }
 /*decade months 12 * 10  - flex-direction in ogx_grid_swiper_cell_content should be set to column - adjust data-y to reflect the layout row*/
 /*
@@ -52,77 +56,86 @@
 }
 */
 .ogx_calendar .ogx_calendar_layout_decade_months{    
-    border:1px solid #444;   
-    background-color: #333;     
+    border:1px solid #DDD;   
+    background-color:#E4E4E4;
 }
 .ogx_calendar .ogx_calendar_layout_decade_months_current{
     background-color:#2f4f4f;
+    color:#EEE;
 }
 /*year months*/
 .ogx_calendar .ogx_calendar_layout_year_months{    
-    border:1px solid #444;   
-    background-color: #333;
+    border:1px solid #DDD;   
+    background-color:#E4E4E4;
 }
 .ogx_calendar .ogx_calendar_layout_year_months_current{
     background-color:#2f4f4f;
+    color:#EEE;
 }
 /*year weeks 4 * 13*/
 .ogx_calendar .ogx_calendar_layout_year_weeks{    
-    border:1px solid #444;   
-    background-color: #333; 
+    border:1px solid #DDD;   
+    background-color:#E4E4E4;
 }
 .ogx_calendar .ogx_calendar_layout_year_weeks_current{
     background-color:#2f4f4f; 
+    color:#EEE;
 }
 /*year days 20 * 19 */
 .ogx_calendar .ogx_calendar_layout_year_days{   
-    border:1px solid #444;   
-    background-color: #333;   
+    border:1px solid #DDD;   
+    background-color:#E4E4E4;
 }
 .ogx_calendar .ogx_calendar_layout_year_days_current{
     background-color:#2f4f4f; 
+    color:#EEE;
 }
 /*month weeks 5 * 1*/
 .ogx_calendar  .ogx_calendar_layout_month_weeks{
-    border:1px solid #444;  
-    background-color:#333;   
+    border:1px solid #DDD;   
+    background-color:#EEE;
 }
 .ogx_calendar .ogx_calendar_layout_month_weeks_current{
     background-color:#2f4f4f;
+    color:#EEE;
 }
 /*week days 7 * 1*/
 .ogx_calendar .ogx_calendar_layout_week_days{      
-    border:1px solid #444;  
-    background-color:#333;   
+    border:1px solid #DDD;   
+    background-color:#E4E4E4;  
 }
 .ogx_calendar .ogx_calendar_layout_week_days_current{
     background-color:#2f4f4f;
+    color:#EEE;
 }
 /*day hours 6 * 4*/
 .ogx_calendar .ogx_calendar_layout_days_hours{    
-    border:1px solid #444;    
-    background-color: #333;   
+    border:1px solid #DDD;   
+    background-color:#E4E4E4; 
 }
 .ogx_calendar .ogx_calendar_layout_days_hours_current{
     background-color:#2f4f4f;
+    color:#EEE;
 }
 /*day work hours 5 * 2 */
 .ogx_calendar .ogx_calendar_layout_days_work_hours{    
-    border:1px solid #444;    
-    background-color: #333;   
+    border:1px solid #DDD;   
+    background-color:#E4E4E4;
 }
 .ogx_calendar .ogx_calendar_layout_days_work_hours_current{
     background-color:#2f4f4f;
+    color:#EEE;
 }
 /* single day */
 .ogx_calendar .ogx_calendar_layout_day{
-    border:1px solid #444;
-    background-color:#333;  
+    border:1px solid #DDD;   
+    background-color:#E4E4E4;
 }
 .ogx_calendar .ogx_calendar_layout_day_current{
     background-color:#2f4f4f;
+    color:#E4E4E4;
 }.ogx_carousel_views{
-	background-color:#222;
+	background-color:#EEE;
 	/*border:1px solid #DDD;*/
 }.ogx_chat{
     background-color:#171717 !important;
@@ -151,13 +164,13 @@
 .ogx_chat_typing_body{		
 	background-color:#FFF;
 }.ogx_container{
-   background-color:#222;
+   background-color:#EEE;
 }body{		
-    color:#EEE;   
-    background-color:#222;    
+    color:#111;   
+    background-color:#EEE;    
 }
 .ogx_stage{
-	background-color:#222;    
+	background-color:#EEE;    
 }
 .ogx_overlay{	
 	background-color:rgba(0, 0, 0, 0.7);	
@@ -171,11 +184,14 @@
 }
 .ogx_dots_selected{
 	background-color:#436963 !important;
-}.ogx_dynamic_list_reorder{
+}.ogx_dynamic_list_selected_item{
+    background-color:#E4E4E4;
+}
+.ogx_dynamic_list_reorder{
 	box-shadow:0px 0px 3px 1px rgba(0,0,0,0.3);
 }
 .ogx_dynamic_list_swiper_back_item{
-    color:#000;		
+    color:#111;		
 	background-color:#CC0000;	
 	background-image:url('../../dark/img/trash.svg');    
 }
@@ -188,44 +204,46 @@
 	background-image:url('../../dark/img/check.svg') !important;	
 }
 .ogx_grid_swiper{ 
-    background-color:#222;
+    background-color:#EEE;
 }
 .ogx_grid_swiper_cell{
-    box-shadow:inset 0px 0px 0px 1px #000;
+    box-shadow:inset 0 0 0 0.5px #DDD;
 }.ogx_grouped_list_group{		
 	border-bottom:solid 1px #DDD;	
 	background-color:#DDD;	
 }
 .ogx_grouped_list_group_opened{	
 	background-image:url('../../dark/img/down.svg');
+    filter:invert(1);
 }
 .ogx_grouped_list_group_closed{
 	background-image:url('../../dark/img/up.svg');	
+    filter:invert(1);
 }
 .ogx_grouped_list_item{	
-	border-bottom:solid 1px #181818;
-	background-color:#222;
+	/*border-bottom:solid 1px #181818;*/
+	background-color:#EEE;
 }
 .ogx_grouped_list_selected_item{
-	border-bottom:solid 1px #181818;	
-	background-color:#333;
+	/*border-bottom:solid 1px #181818;*/
+	background-color:#DDD;
 }.ogx_iceberg_views{
     /*background-color:#E4E4E4;*/
 }
 .ogx_iceberg_view{	
     /*border-right:1px solid #E4E4E4;*/
 }input[type=button], input[type=submit]{ 
-    border:1px solid #333;    
+    border:1px solid #DDD;    
     background-color:rgba(0,0,0,0);   
 }
 input[type=text], input[type=password], input[type=email], input[type=tel], input[type=number]{   
-    border-bottom:1px solid #333;
-    color:#DDD;  
+    border-bottom:1px solid #DDD;
+    color:#333;  
     background-color:rgba(0,0,0,0);    
 }
 input[type=text]:focus,  input[type=password]:focus, input[type=email]:focus, input[type=tel]:focus, input[type=number]:focus{
-    border-bottom:1px solid #EEE;
-    color:#EEE;
+    border-bottom:1px solid rgb(26, 24, 24);
+    color:#111;
 }
 input[type=range]::-webkit-slider-thumb {   
     background:#EEEEEE;
@@ -237,37 +255,38 @@ input[type=range]::-webkit-slider-runnable-track {
     border:1px solid #E4E4E4;
     box-shadow:inset 1px 1px 2px 0px rgba(0,0,0,0.5);
 }.ogx_nest_list{	
-    background-color:#222;
+    background-color:#EEE;
 }
 .ogx_nest_list_item_head{    
-    background-color:#222;  
-    border-bottom:1px solid #282828;
+    background-color:#EEE;  
+    border-bottom:1px solid #DDD;
 }
 .ogx_nest_list_item_icon{   
     background-image:url('../../dark/img/down.svg');   
+    filter:invert(1);
 }
 .ogx_nest_list_item_title{		
-    color:#EEE;
+    color:#111;
 }
 .ogx_nest_list_item_body{	
-    color:#EEE;
-    background-color:#202020;
+    color:#111;
+    background-color:#E4E4E4;
 }
 .ogx_nest_list_item_content{   
-    color:#EEE;
+    color:#111;
 }
 .ogx_nest_list_mask{
-    background-color:#222;
+    background-color:#EEE;
 }.ogx_popup{	   
-	background-color:#222;
-	border:1px solid #333;	
+	background-color:#EEE;
+	border:1px solid #DDD;	
 	box-shadow:0px 0px 3px 3px rgba(0,0,0,0.15);	
 }
 .ogx_popup_head{    
-    border-bottom:1px solid #333;
+    border-bottom:1px solid #DDD;
 }
 .ogx_popup_title{
-    color:#EEE;
+    color:#111;
 }
 .ogx_popup_button{      
     color:#56acff;	
@@ -277,17 +296,31 @@ input[type=range]::-webkit-slider-runnable-track {
     border-bottom:1px solid #333;   
 }
 .ogx_roulette_block_label{	
-    color:#EEE;
+    color:#111;
 }
 .ogx_roulette_icon{
     background-image:url('../../dark/img/loop.svg');
-}.ogx_scroller_track_button{   
-    background-color:rgba(255, 255, 255, 0.9);
+}
+/* themes */
+@media (prefers-color-scheme: dark){
+    .ogx_roulette{
+        border-bottom:1px solid #CCC;
+    }
+    .ogx_roulette_icon{ 
+        filter:invert(1);
+    }
+}
+.ogx_scroller_track_button{   
+    background-color:rgba(0, 0, 0, 0.9);
 }.ogx_stacked_tree_level_prev{
-    background-image:url('../../dark/img/left.svg');    
+    background-image:url('../img/left.svg');   
+    border-bottom: 1px solid #DDD; 
 }
 .ogx_stacked_tree_door{
-    background-image:url('../../dark/img/right.svg');   
+    background-image:url('../img/right.svg');   
+}
+.ogx_stacked_tree_item{
+    background-color:#EEE;
 }.ogx_switch_track_bg{
     border-bottom:1px solid #CCC;   
 }
@@ -297,12 +330,18 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 .ogx_switch_dot_right{
     background-color:#EEE !important;
+}
+.ogx_switch_label{	   
+    color:#CCC;   
+}
+.ogx_switch_label_on{
+    color:#222;   
 }.ogx_tabs{  
-    background-color:#222;
+    background-color:#EEE;
 }
 .ogx_tabs_tab{ 
-    border:1px solid #333;
-    border-bottom:1px solid #333;    
+    border:1px solid #DDD;
+    border-bottom:1px solid #DDD;    
 }
 .ogx_tabs_tab_label{    	
     color:#777;  
@@ -312,12 +351,13 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 .ogx_tabs_tab_close span{  
     background-image:url('../../dark/close.svg');   
+    filter:invert(1);
 }
 .ogx_tabs_tab_active{
     border-bottom:1px solid rgba(0,0,0,0);
 }
 .ogx_tabs_tab_active > .ogx_tabs_tab_label{
-    color:#FFF !important;
+    color:#111 !important;
 }
 .ogx_tabs_tab_active .ogx_tabs_tab_close{
     background-color:#FFF;  
@@ -328,6 +368,7 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 .ogx_tabs_tab_add span{    
     background-image:url('../../dark/add.svg');   
+    filter:invert(1);
 }.ogx_tags input[type=text]{    
     border-bottom:1px solid #333333;
 }
@@ -344,6 +385,9 @@ input[type=range]::-webkit-slider-runnable-track {
 }.ogx_theater{  
     background-image:url('../../../../img/theater.jpg');   
 }
+.ogx_theater .ogx_theater_stage_label{
+    color:#EEE;
+}
 .ogx_theater_trans{   
     background-color:#222;  
     border:1px solid #333;	
@@ -352,7 +396,7 @@ input[type=range]::-webkit-slider-runnable-track {
     background-color:#222;   
     background-image:url('../../dark/img/remove.svg');  
 }.ogx_tree_item{	
-	color:#333;	
+	/*color:#333;*/
 }
 .ogx_tree_selected_item{	
 	background-color:rgba(7, 77, 65, 0.1);	
@@ -360,54 +404,63 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 .ogx_tree_item > .ogx_tree_item_arrow span{
 	background-image:url('../../dark/img/arrow.svg');
+    filter:invert(1);
 }
 .ogx_tree_item > .ogx_tree_item_label{	
-	text-shadow:1px 1px 2px rgba(102, 102, 102, 0.6);
-    color:#EEE;
+	/*text-shadow:1px 1px 2px rgba(102, 102, 102, 0.6);*/
+    color:#111;
 }
 .ogx_tree_item > .file{
     background-image:url('../../dark/img/file.svg');
+    filter:invert(1);
 }
 .ogx_tree_item > .folder{
     background-image:url('../../dark/img/folder.svg');
+    filter:invert(1);
 }
 .ogx_tree_item > .folder_open{
     background-image:url('../../dark/img/folder_open.svg');
+    filter:invert(1);
 }
 .ogx_tree_item > .folder_closed{
     background-image:url('../../dark/img/folder_closed.svg');
+    filter:invert(1);
 }
 .ogx_tree_item > .root{
     background-image:url('../../dark/img/root.svg');
+    filter:invert(1);
 }.ogx_window{	
-    background-color:#222;
+    background-color:#EEE;
     box-shadow:0px 0px 3px 2px rgba(0,0,0,0.2);
 }
 .ogx_window .ogx_view{
-	background-color:#222;    
+	background-color:#EEE;    
 }
 .ogx_window_custom{	
 	border-right:1px solid #E2E2E2;
 }
 .ogx_window_head{   	
-	color:#EEE;
-    background-color:#222;   
-    border-bottom: 1px solid #282828;
+	color:#111;
+    background-color:#EEE;   
+    border-bottom: 1px solid #DDD;
 }
 .ogx_window_main_icon_top{	
 	background-image:url('../../dark/img/down.svg');
-	/*background-position-y:15px;*/
+    filter:invert(1);
 }
 .ogx_window_main_icon_left{	
 	background-image:url('../../dark/img/right.svg');
-	background-position-y:15px;
+    filter:invert(1);
 }
 .ogx_window_main_icon_right{
     background-image:url('../../dark/img/left.svg');
+    filter:invert(1);
 }
 .ogx_window_main_icon_bottom{
     background-image:url('../../dark/img/up.svg');
+    filter:invert(1);
 }
 .ogx_window_main_icon_close{  
-	background-image:url('../../dark/img/close.svg');		
+	background-image:url('../../dark/img/close.svg');	
+    filter:invert(1);	
 }
