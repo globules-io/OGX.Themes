@@ -431,7 +431,7 @@ input[type=range]::-webkit-slider-runnable-track {
 	border-radius:4px;
 }
 .ogx_popup_head{
-    height:35px;
+    height:40px;
 }
 .ogx_popup_icon{
     width:30px;
@@ -439,14 +439,14 @@ input[type=range]::-webkit-slider-runnable-track {
     background-position:center;
     background-repeat:no-repeat;
     background-size:contain;
-    left:3px;
+    left:6px;
     top:3px;
 }
 .ogx_popup_title{
 	text-align:center;
     font-family:RBsemi;
     font-size:16px;
-    padding:9px 0px 8px 0px;
+    padding-top:10px;
     text-transform: capitalize;    
 }
 .ogx_popup_icons{
@@ -458,7 +458,7 @@ input[type=range]::-webkit-slider-runnable-track {
 	height:30px;
 	background-position:center;
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:contain;
 }
 .ogx_popup_tabs{	
 	height:44px;
