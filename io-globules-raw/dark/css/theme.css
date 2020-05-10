@@ -161,7 +161,7 @@
 
 }
 .ogx_chat_composer_input textarea{	
-	font-family:RBlight;
+	font-family:Roboto-Light;
 	font-size:16px;
 }
 .ogx_chat_composer_send{
@@ -180,7 +180,7 @@
 	background-color:#262626;
 	color:#FFF;
     border:1px solid #333;
-    font-family:RBlight;
+    font-family:Roboto-Light;
     letter-spacing:0.5px;
 }  
 .ogx_chat_message_icon{	
@@ -200,7 +200,7 @@
 	margin-top:8px;
 }
 .ogx_chat_message_date{
-	font-family:RBlight;
+	font-family:Roboto-Light;
 	font-size:10px;	
 	color:#999;	
 	margin:3px 4px 0px 4px;
@@ -213,7 +213,7 @@
 }
 .ogx_chat_typing{	
 	margin-bottom:10px;
-	font-family:RBlight;
+	font-family:Roboto-Light;
 }
 .ogx_chat_typing_body{	
 	padding:10px;
@@ -224,7 +224,7 @@
 }body{	
 	font-size:18px;	
     color:#EEE;
-    font-family:RBreg;
+    font-family:Roboto-Regular;
     background-color:#222;    
 }
 .ogx_stage{
@@ -359,7 +359,7 @@
     border:1px solid #333;
     transition:all 0.3s;
     background-color:rgba(0,0,0,0);
-    font-family:RBsemi;
+    font-family:Roboto-Medium;
     font-size:16px;
     border-radius:5px;
 }
@@ -375,7 +375,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
     transition:all 0.3s;
     background-color:rgba(0,0,0,0);
     border-radius:0px;
-    font-family:RBreg;
+    font-family:Roboto-Regular;
     font-size:16px;
 }
 input[type=text]:focus,  input[type=password]:focus, input[type=email]:focus, input[type=tel]:focus, input[type=number]:focus{
@@ -437,7 +437,7 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 .ogx_nest_list_item_title{	
 	padding:10px 5px 10px 10px;
-	font-family:RBsemi;	
+	font-family:Roboto-Medium;	
 	font-size:16px;
     color:#EEE;
 }
@@ -482,7 +482,7 @@ input[type=range]::-webkit-slider-runnable-track {
 	text-align:left;
     padding-left:10px;
     font-size:16px;
-	font-family:RBreg;
+	font-family:Roboto-Regular;
     color:#EEE;
     text-transform:capitalize;
 }
@@ -524,7 +524,7 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 .ogx_stacked_tree_item{
     padding:10px;
-    font-family:RBreg;
+    font-family:Roboto-Regular;
     font-size:16px;
 }
 .ogx_stacked_tree_door{
@@ -580,7 +580,7 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 .ogx_tabs_tab_label{    
 	padding:5px;
-    font-family:RBreg;
+    font-family:Roboto-Regular;
     font-size:16px;
     margin-left:10px;  
     color:#777;  
@@ -701,7 +701,7 @@ input[type=range]::-webkit-slider-runnable-track {
 .ogx_theater_stage_label{  
     text-align:center;
     margin-top:5px;
-    font-family:RBreg;
+    font-family:Roboto-Regular;
     font-size:14px;
     max-width:50px;
     overflow-wrap:break-word;
@@ -832,7 +832,7 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 .ogx_window_title{
 	font-size:16px;
-	font-family:RBreg;
+	font-family:Roboto-Regular;
 	padding-top:6px;
 }
 .ogx_window_open .ogx_window_main_icon_left{
