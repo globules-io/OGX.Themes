@@ -479,7 +479,7 @@ input[type=range]::-webkit-slider-runnable-track {
     font-family:Roboto-Regular;
     font-size:16px;   
 	margin-left:30px;  
-    padding:10px 0px 20px 0px;  
+    padding:20px 0px 20px 0px;  
 }
 .ogx_popup_fade{
 	transition:opacity 0.5s;   
