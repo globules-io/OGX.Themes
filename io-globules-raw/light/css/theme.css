@@ -178,6 +178,9 @@
 .ogx_loading{
 	background-image:url('../../dark/img/loading.svg');	
     background-color:rgba(0,0,0,0.7);
+}
+.ogx_group_overlay{   
+    background-color:rgba(90, 145, 214, 0.3);
 }.ogx_dots_gfx{	
 	background-color:#FFF;
 	border:1px solid #AAA;

@@ -248,6 +248,9 @@
 	background-position:center;
 	background-size:40px;	
     background-color:rgba(0,0,0,0.7);
+}
+.ogx_group_overlay{   
+    background-color:rgba(90, 145, 214, 0.3);
 }.ogx_dots{   
     height:20px;   
 }
@@ -464,7 +467,9 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 .ogx_popup_button{     
     color:#56acff;
-
+}
+.ogx_popup_group_overlay{   
+    background-color:rgba(90, 145, 214, 0.3);
 }.ogx_quad_swiper{
     background-color:#EEE;     
 }
