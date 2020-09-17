@@ -351,6 +351,7 @@
     font-family:Roboto-Medium;
     font-size:16px;
     border-radius:5px;
+    border:none;
 }
 input[type=text], input[type=password], input[type=email], input[type=tel], input[type=number]{
     -webkit-tap-highlight-color:rgba(255, 255, 255, 0); 
@@ -362,7 +363,8 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
     transition:all 0.3s;    
     border-radius:0px;
     font-family:Roboto-Regular;
-    font-size:16px;
+    font-size:16px;    
+    background-color:transparent;
 }
 input[type=text]:focus,  input[type=password]:focus, input[type=email]:focus, input[type=tel]:focus, input[type=number]:focus{
 
