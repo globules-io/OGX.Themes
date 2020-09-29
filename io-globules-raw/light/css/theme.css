@@ -293,6 +293,12 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 .ogx_popup_button{      
     color:#56acff;	
+}
+.ogx_popup_button_disabled{
+    color:#999 !important;
+}
+.ogx_popup_group_overlay{   
+    background-color:rgba(90, 145, 214, 0.3);
 }.ogx_quad_swiper{
     background-color:#EEE;     
 }.ogx_roulette{		
