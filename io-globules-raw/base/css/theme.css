@@ -836,7 +836,8 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 .ogx_window_icon{  
     width:30px;
-    height:30px;    
+    height:30px;   
+    margin-left:5px;
     background-repeat:no-repeat;
     background-position:center center;
     background-size:contain;
