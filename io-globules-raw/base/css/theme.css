@@ -578,7 +578,8 @@ input[type=range]::-webkit-slider-runnable-track {
     left:calc(100% - 20px) !important;
 }
 .ogx_switch_label{	
-    font-family:Roboto-Regular;       
+    font-family:Roboto-Regular;  
+    font-size:16px;     
 }
 .ogx_switch_label:first-of-type{
     padding:1px 10px 0px 0px;
@@ -593,10 +594,12 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 .ogx_tabs_tab{    
     border-top-left-radius:6px;
-    border-top-right-radius:6px;   
-    max-width:calc(100% - 30px);
+    border-top-right-radius:6px;       
     min-width:100px;
 	margin-right:-1px;   
+}
+.ogx_tabs_editable .ogx_tabs_tab{  
+    max-width:calc(100% - 30px);
 }
 .ogx_tabs_frozen{
    opacity:0.2; 

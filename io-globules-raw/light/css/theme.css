@@ -309,17 +309,7 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 .ogx_roulette_icon{
     background-image:url('../../dark/img/loop.svg');
-}
-/* themes */
-@media (prefers-color-scheme: dark){
-    .ogx_roulette{
-        border-bottom:1px solid #CCC;
-    }
-    .ogx_roulette_icon{ 
-        filter:invert(1);
-    }
-}
-.ogx_scroller_track_button{   
+}.ogx_scroller_track_button{   
     background-color:rgba(0, 0, 0, 0.9);
 }.ogx_stacked_tree_level_prev{
     background-image:url('../img/left.svg');   
@@ -372,7 +362,6 @@ input[type=range]::-webkit-slider-runnable-track {
     background-color:#FFF;  
 }
 .ogx_tabs_tab_add{   
-    padding-top:5px;  
     background-color:#FFF;
 }
 .ogx_tabs_tab_add span{    
