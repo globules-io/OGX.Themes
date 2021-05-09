@@ -31,13 +31,14 @@
     position:relative;
 }
 /*LAYOUTS*/
+.ogx_calendar_layout_item{
+    transition:all 0.5s cubic-bezier(.22,.61,.36, 1);
+}
 /*month days*/
 .ogx_calendar .ogx_calendar_layout_month_days{    
     position:relative;
     border-radius:6px;
-    /*box-shadow:0px 1px 1px 0px #DDD;*/
-    text-align:center;   
-	transition:all 1s cubic-bezier(.22,.61,.36,1);
+    text-align:center;  	
     font-family:Roboto-Regular !important;
 }
 .ogx_calendar .ogx_calendar_layout_month_days_offset{
