@@ -328,6 +328,16 @@ input[type=range]::-webkit-slider-runnable-track {
     background:#CCCCCC;
     border:1px solid #E4E4E4;
     box-shadow:inset 1px 1px 2px 0px rgba(0,0,0,0.5);
+}
+input:placeholder-shown{
+    border-bottom-color:#333 !important;
+}
+input:disabled{
+    border-bottom-color:#282828 !important;
+    color:#777;
+}
+input::placeholder{
+    color:#999;
 }.ogx_nest_list{	
     background-color:#222;
 }
