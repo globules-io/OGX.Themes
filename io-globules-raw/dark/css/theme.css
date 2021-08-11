@@ -160,6 +160,10 @@
 	background-image:url('../../dark/img/send.svg');
 	background-position:center;
 }
+.ogx_chat_composer_input textarea{	
+	background-color: #333;
+    color: #EEE;
+}
 .ogx_chat_message_left .ogx_chat_message_body{
 	background-color:#262626;
 	color:#FFF;
