@@ -618,6 +618,9 @@ input:-webkit-autofill:active {
 }
 .ogx_switch_label:last-of-type{
     padding:1px 0px 0px 10px;
+}
+.ogx_switch_disabled{
+    opacity:0.3;
 }.ogx_tabs{  
     padding:2px 2px 0px 2px;
 }
