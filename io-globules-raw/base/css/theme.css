@@ -200,6 +200,22 @@
 .ogx_chat_messages{
 	padding:10px;
 }
+.ogx_chat_emojis{
+    border-top: 1px solid #333;
+    padding: 5px;     
+}
+.ogx_chat_emojis > input{
+    vertical-align: top;
+}
+.ogx_chat_emojis > .ogx_chat_emojis_list{
+    height: 108px;
+    font-size: 25px;
+    margin-bottom: 48px;
+}
+.ogx_chat_emojis > .ogx_chat_emojis_list .ogx_chat_emoji{
+    max-width: 30px;
+    display: inline-block;
+}
 .ogx_chat_composer{
 	flex-basis:70px; 
 }
