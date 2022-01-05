@@ -323,6 +323,7 @@ input[type=text]:focus,  input[type=password]:focus, input[type=email]:focus, in
 input[type=text]:invalid,  input[type=password]:invalid, input[type=email]:invalid, input[type=tel]:invalid, input[type=number]:invalid{
     border-bottom:1px solid #bb1c1c;
 }
+/*
 input[type=range]::-webkit-slider-thumb {     
     background:#EEEEEE;
     border: 1px solid #AAAAAA;
@@ -333,6 +334,7 @@ input[type=range]::-webkit-slider-runnable-track {
     border:1px solid #E4E4E4;
     box-shadow:inset 1px 1px 2px 0px rgba(0,0,0,0.5);
 }
+*/
 input:placeholder-shown{
     border-bottom-color:#333 !important;
 }

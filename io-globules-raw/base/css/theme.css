@@ -204,7 +204,6 @@
 	flex-basis:70px; 
 }
 .ogx_chat_composer_input{
-	width:calc(100% - 80px);
 	padding:5px;
 }
 .ogx_chat_messages_inner{
@@ -215,10 +214,16 @@
 	font-size:16px;
 }
 .ogx_chat_composer_send{
-	width:80px;
+	width:60px;
 	background-repeat:no-repeat;
 	background-position:center;
-	min-height:60px;
+	height:100%;
+}
+.ogx_chat_composer_emoji{
+    width:60px;
+	background-repeat:no-repeat;
+	background-position:center;
+    height:100%;
 }
 .ogx_chat_message{
 	margin-bottom:10px;
@@ -394,10 +399,10 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
 input[type=text]:focus,  input[type=password]:focus, input[type=email]:focus, input[type=tel]:focus, input[type=number]:focus{
 
 }
+/*
 input[type=range]{
     -webkit-appearance:none;
     appearance:none;
-    /*width:100%; /* Specific width is required for Firefox. */
     background:transparent;
 }
 input[type=range]:focus {
@@ -417,6 +422,7 @@ input[type=range]::-webkit-slider-runnable-track {
     height:24px;   
     border-radius:11px;  
 }
+*/
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
