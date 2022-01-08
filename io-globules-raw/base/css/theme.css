@@ -695,6 +695,9 @@ input:-webkit-autofill:active {
 }
 .ogx_tabs_tab_active .ogx_tabs_tab_close{
 }
+.ogx_tabs_tab_disabled{
+    opacity: 0.3;
+}
 .ogx_tabs_tab_add{   
     padding-top:5px;  
 }
