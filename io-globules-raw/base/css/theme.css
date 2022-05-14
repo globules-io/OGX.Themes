@@ -284,7 +284,7 @@
 }.ogx_container{
 
 }body{	
-	font-size:18px;	   
+	font-size:16px;	   
     font-family:Roboto-Regular; 
 }
 .ogx_stage{   
@@ -802,6 +802,21 @@ input:-webkit-autofill:active {
     padding:10px;
 }
 .ogx_tree_item{	
+}
+.ogx_tree_item > .ogx_tree_item_content{
+    margin-top: 5px;
+}
+.ogx_tree_item > .ogx_tree_item_content > .ogx_tree_item_icon{
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.ogx_tree_item > .ogx_tree_item_content > .ogx_tree_item_label{
+    vertical-align: top;
 }
 .ogx_tree_item > .ogx_tree_item_container{	
 	left:30px;	
