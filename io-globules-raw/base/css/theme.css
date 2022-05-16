@@ -819,9 +819,10 @@ input:-webkit-autofill:active {
     vertical-align: top;
 }
 .ogx_tree_item > .ogx_tree_item_container{	
+    display: block;
+    width: 100%;
 	left:30px;	
 	margin-bottom:5px;	
-	width:1px;
 	white-space:nowrap;
 }
 .ogx_tree_selected_item{	
