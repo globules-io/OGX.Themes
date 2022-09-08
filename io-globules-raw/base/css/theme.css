@@ -817,6 +817,7 @@ input:-webkit-autofill:active {
 }
 .ogx_tree_item > .ogx_tree_item_content > .ogx_tree_item_label{
     vertical-align: top;
+    padding-right: 10px;
 }
 .ogx_tree_item > .ogx_tree_item_container{	
     display: block;
@@ -847,25 +848,6 @@ input:-webkit-autofill:active {
 }
 .ogx_tree_item > .ogx_tree_item_arrow_disabled{
 	opacity:0.3;
-}
-.ogx_tree_item > .ogx_tree_item_label{
-	margin-left:5px;	
-	font-size:12px;	
-}
-.ogx_tree_item > .file{
-
-}
-.ogx_tree_item > .folder{
-  
-}
-.ogx_tree_item > .folder_open{
-    
-}
-.ogx_tree_item > .folder_closed{
-   
-}
-.ogx_tree_item > .root{
-   
 }.ogx_window{	
    
 }
