@@ -488,6 +488,8 @@ input:-webkit-autofill:active {
     display:none;
     visibility:hidden;
 	border-radius:4px;
+    transition:all 0.3s ease;
+    transform-origin:center;
 }
 .ogx_popup_head{
     height:40px;
@@ -536,16 +538,17 @@ input:-webkit-autofill:active {
     font-size:16px;   
 	margin-left:30px;  
     padding:20px 0px 20px 0px;  
+    cursor: pointer;
 }
 .ogx_popup_button_disabled{
     opacity:0.3;
+    cursor: unset;
 }
 .ogx_popup_fade{
-	transition:opacity 0.5s;   
+	transition: opacity 0.5s;   
 }
 .ogx_popup_scale{
-	transition:transform 0.3s ease;
-    transform-origin:center;
+
 }
 .ogx_popup_drag{
     transition:none !important;
