@@ -548,7 +548,7 @@ input:-webkit-autofill:active {
 	transition: opacity 0.5s;   
 }
 .ogx_popup_scale{
-
+   
 }
 .ogx_popup_drag{
     transition:none !important;
@@ -680,31 +680,21 @@ input:-webkit-autofill:active {
     margin-left:10px;  
 }
 .ogx_tabs_tab_close{    
-    padding-top:5px;
-    padding-right:5px;
+    margin-top:5px;
+    margin-right:5px;
     flex-basis:26px;    
-    text-align:center;   
-}
-.ogx_tabs_tab_close span{   
+    text-align:center;  
     width:14px;
     height:14px;    
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center; 
 }
-.ogx_tabs_tab_active{
-}
-.ogx_tabs_tab_active > .ogx_tabs_tab_label{
-}
-.ogx_tabs_tab_active .ogx_tabs_tab_close{
-}
 .ogx_tabs_tab_disabled{
     opacity: 0.3;
 }
 .ogx_tabs_tab_add{   
-    padding-top:5px;  
-}
-.ogx_tabs_tab_add span{    
+    padding-top:5px;    
     width:16px;
     height:16px; 
     background-repeat:no-repeat;

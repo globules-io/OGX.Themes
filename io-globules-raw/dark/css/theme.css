@@ -149,44 +149,6 @@
 }
 .ogx_carousel_anim{
     transition:all 0.3s ease-out;
-}.ogx_chat{
-    background-color:#171717 !important;
-}
-.ogx_chat_composer{
-	background-color:#333;
-}
-.ogx_chat_composer_send{
-	background-repeat:no-repeat;
-	background-image:url('../../dark/img/send.svg');
-	background-position:center;
-}
-.ogx_chat_composer_emoji{
-    background-image:url('../../dark/img/emoji.svg');
-}
-.ogx_chat_composer_input textarea{	
-	background-color: #333;
-    color: #EEE;
-}
-.ogx_chat_message_left .ogx_chat_message_body{
-	background-color:#262626;
-	color:#FFF;
-    border:1px solid #333;
-}  
-.ogx_chat_message_icon{	
-    color:#98bcd6; 
-	background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;   
-    border: 1px solid #444;
-}
-.ogx_chat_message_date{
-	color:#999;	
-}
-.ogx_chat_message_body{	
-	background-color:darkslategray;
-}
-.ogx_chat_typing_body{	
-	background-color:#FFF;
 }.ogx_container{
    background-color:#222;
 }body{	
@@ -452,31 +414,14 @@ input::placeholder{
 }
 .ogx_tabs_tab{        
     border:1px solid #333;
-    border-bottom:1px solid #333;
-    /*
-    max-width:calc(100% - 30px);
-    */   
-}
-.ogx_tabs_frozen{
-   opacity:0.2; 
-}
-.ogx_tabs_tab_icon{    
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center;
+    border-bottom:1px solid #333;     
 }
 .ogx_tabs_tab_label{    
     font-family:Roboto-Regular;
     color:#777;  
 }
-.ogx_tabs_tab_close{ 
-    background-color:#EEE;   
-}
-.ogx_tabs_tab_close span{      
-    background-image:url('../../dark/close.svg');
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center; 
+.ogx_tabs_tab_close{   
+    background-image:url('../../dark/img/close.svg'); 
 }
 .ogx_tabs_tab_active{
     border-bottom:1px solid rgba(0,0,0,0);
@@ -484,17 +429,9 @@ input::placeholder{
 .ogx_tabs_tab_active > .ogx_tabs_tab_label{
     color:#FFF !important;
 }
-.ogx_tabs_tab_active .ogx_tabs_tab_close{
-    background-color:#FFF;  
-}
 .ogx_tabs_tab_add{   
-    background-color:#FFF;
-}
-.ogx_tabs_tab_add span{    
-    background-image:url('../../dark/add.svg');
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center;     
+    background-color:#333;   
+    background-image:url('../../dark/img/add.svg');    
 }.ogx_tags{   
 	
 }
