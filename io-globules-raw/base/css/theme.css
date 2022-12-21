@@ -680,8 +680,8 @@ input:-webkit-autofill:active {
     margin-left:10px;  
 }
 .ogx_tabs_tab_close{    
-    margin-top:5px;
-    margin-right:5px;
+    margin-top: 10px;
+    margin-right: 10px;
     flex-basis:26px;    
     text-align:center;  
     width:14px;
