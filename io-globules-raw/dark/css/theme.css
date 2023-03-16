@@ -17,6 +17,9 @@
     background-image:url('../../dark/img/right.svg');
 }
 /*LAYOUTS*/
+.ogx_calendar .ogx_calendar_layout_off_date{
+    background-color: #222;
+}
 /*month days*/
 .ogx_calendar .ogx_calendar_layout_month_days{    
     border:1px solid #444;
