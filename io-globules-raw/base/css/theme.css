@@ -46,6 +46,22 @@
     background-position-x:center;
     background-position-y:center;
 }
+.ogx_calendar .ogx_calendar_head_date .ogx_calendar_up{
+    width:50px;
+    height:26px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position-x:center;
+    background-position-y:center;
+}
+.ogx_calendar .ogx_calendar_head_date .ogx_calendar_down{
+    width:50px;
+    height:26px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position-x:center;
+    background-position-y:center;
+}
 .ogx_calendar .ogx_calendar_head_date .ogx_calendar_display_date{
     font-family: Roboto-Regular;
     font-size: 16px;
