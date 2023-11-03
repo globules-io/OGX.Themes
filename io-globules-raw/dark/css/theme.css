@@ -441,6 +441,9 @@ input::placeholder{
 .ogx_tabs_tab_add{   
     background-color:#333;   
     background-image:url('../../dark/img/add.svg');    
+}
+.ogx_tabs_tab_grad{    
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(40,40,40,1) 60%);
 }.ogx_tags{   
 	
 }

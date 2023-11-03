@@ -364,6 +364,9 @@ input::placeholder{
     background-color:#FFF; 
     background-image:url('../../dark/img/add.svg');   
     filter:invert(1);
+}
+.ogx_tabs_tab_grad{    
+    background: linear-gradient(90deg, rgba(238,238,238,0) 0%, rgba(238,238,238,1) 60%);
 }.ogx_tags input[type=text]{    
     border-bottom:1px solid #333333;
 }

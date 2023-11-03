@@ -62,6 +62,9 @@
     background-position-x:center;
     background-position-y:center;
 }
+.ogx_calendar .ogx_calendar_head_date .ogx_calendar_off{
+    opacity: 0.3;
+}
 .ogx_calendar .ogx_calendar_head_date .ogx_calendar_display_date{
     font-family: Roboto-Regular;
     font-size: 16px;
@@ -671,7 +674,6 @@ input:-webkit-autofill:active {
 .ogx_tabs_tab{    
     border-top-left-radius:6px;
     border-top-right-radius:6px;       
-    min-width:100px;
 	margin-right:-1px;   
 }
 .ogx_tabs_editable .ogx_tabs_tab{  
@@ -716,6 +718,9 @@ input:-webkit-autofill:active {
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center;     
+}
+.ogx_tabs_tab_grad{   
+    width: 20px;
 }.ogx_tags{   
 	padding:10px 5px 10px 5px;
 }
