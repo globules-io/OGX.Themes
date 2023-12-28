@@ -344,6 +344,9 @@
 .ogx_dynamic_list_frozen{
 	opacity:0.2 !important;
 }
+.ogx_dynamic_list_item_disabled{
+	opacity:0.3 !important;
+}
 .ogx_dynamic_list_swiper_back_item{   
 	background-repeat:no-repeat;
 	background-size:contain;	

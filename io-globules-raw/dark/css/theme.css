@@ -203,6 +203,9 @@
 .ogx_dynamic_list_frozen{
 	opacity:0.2 !important;
 }
+.ogx_dynamic_list_disabled_item{
+	opacity:0.3 !important;
+}
 .ogx_dynamic_list_selected_item{
     background-color:#282828;
 }
@@ -444,6 +447,9 @@ input::placeholder{
 }
 .ogx_tabs_tab_grad{    
     background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(40,40,40,1) 60%);
+}
+.ogx_tabs_tab_active > .ogx_tabs_tab_grad{   
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(34,34,34,1) 60%);
 }.ogx_tags{   
 	
 }
