@@ -687,11 +687,12 @@ input:-webkit-autofill:active {
 .ogx_tabs_frozen{
    opacity:0.2; 
 }
-.ogx_tabs_tab_icon{    
-    flex-basis:25px;
-    height:25px;
-    margin-left:5px;
-    margin-top:5px;
+.ogx_tabs_tab_icon{  
+    min-width: 20px;
+    flex-basis: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;  
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center;
