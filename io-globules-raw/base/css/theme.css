@@ -675,6 +675,8 @@ input:-webkit-autofill:active {
     width:calc(100% - 40px);
 }
 .ogx_tabs_tab{    
+    display: inline-flex;
+    flex-direction: row;
     border-top-left-radius:6px;
     border-top-right-radius:6px;       
 	margin-right:-1px;   
@@ -698,6 +700,7 @@ input:-webkit-autofill:active {
 	padding:5px;
     font-family:Roboto-Regular;
     font-size:16px;
+    flex-grow: 1;
     margin-left:10px;  
 }
 .ogx_tabs_tab_close{    
