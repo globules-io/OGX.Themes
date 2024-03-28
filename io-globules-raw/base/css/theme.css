@@ -541,7 +541,7 @@ input:-webkit-autofill:active {
     } 
 } 
 .ogx_popup_scale_out{
-    animation: ogx_popup_scale_in 0.3s ease;
+    animation: ogx_popup_scale_out 0.3s ease;
     transform-origin: center;
     animation-composition: add;
 }
@@ -553,6 +553,36 @@ input:-webkit-autofill:active {
         transform: scale(0.5);
     } 
 } 
+.ogx_popup_fade_scale_in{
+    animation: ogx_popup_fade_scale_in 0.3s ease;
+    transform-origin: center;
+    animation-composition: add;
+}
+@keyframes ogx_popup_fade_scale_in {
+    0% {
+        transform: scale(.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    } 
+} 
+.ogx_popup_fade_scale_out{
+    animation: ogx_popup_fade_scale_out 0.3s ease;
+    transform-origin: center;
+    animation-composition: add;
+}
+@keyframes ogx_popup_fade_scale_out {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.5);
+        opacity: 0;
+    } 
+}
 .ogx_popup_slide_in{
     animation: ogx_popup_slide_in 0.3s ease;
     transform-origin: center;
@@ -560,10 +590,10 @@ input:-webkit-autofill:active {
 }
 @keyframes ogx_popup_slide_in {
     0% {
-        transform: translateY(0%);
+        transform: translateY(100%);
     }
     100% {
-        transform: translateY(50%);
+        transform: translateY(0%);
     } 
 } 
 .ogx_popup_slide_out{
@@ -573,10 +603,40 @@ input:-webkit-autofill:active {
 }
 @keyframes ogx_popup_slide_out {
     0% {
+        transform: translateY(0%);
+    }
+    100% {
         transform: translateY(100%);
+    } 
+} 
+.ogx_popup_fade_slide_in{
+    animation: ogx_popup_fade_slide_in 0.3s ease;
+    transform-origin: center;
+    animation-composition: add;
+}
+@keyframes ogx_popup_fade_slide_in {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
     }
     100% {
         transform: translateY(0%);
+        opacity: 1;
+    } 
+} 
+.ogx_popup_fade_slide_out{
+    animation: ogx_popup_fade_slide_out 0.3s ease;
+    transform-origin: center;
+    animation-composition: add;
+}
+@keyframes ogx_popup_fade_slide_out {
+    0% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100%);
+        opacity: 0;
     } 
 } .ogx_quad_swiper{ 
 }
