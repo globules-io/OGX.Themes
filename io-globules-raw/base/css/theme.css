@@ -420,9 +420,7 @@ input:-webkit-autofill:active {
 }
 .ogx_nest_list_mask{  
     transition:transform 0.2s;
-}.ogx_popup{
-    display:none;
-    visibility:hidden;
+}.ogx_popup{   
 	border-radius:4px;
     transition:all 0.3s ease;
     transform-origin:center;
@@ -480,15 +478,107 @@ input:-webkit-autofill:active {
     opacity:0.3;
     cursor: unset;
 }
-.ogx_popup_fade{
-	transition: opacity 0.5s;   
-}
-.ogx_popup_scale{
-   
-}
 .ogx_popup_drag{
     transition:none !important;
-}.ogx_quad_swiper{ 
+}
+/* ANIMS */
+.ogx_popup_shake{
+    animation: ogx_popup_shake 1s cubic-bezier(.36,.07,.19,.97) both;
+    transform-origin: center;
+    animation-composition: add;
+}
+@keyframes ogx_popup_shake {
+    10%, 90% {
+        transform: translateX(-2px);
+    }  
+    20%, 80% {
+        transform: translateX(4px);
+    }
+    30%, 50%, 70% {
+        transform: translateX(-8px);
+    }
+    40%, 60% {
+        transform: translateX(8px);
+    }
+} 
+.ogx_popup_fade_in{
+    animation: ogx_popup_fade_in 0.3s ease;
+    transform-origin: center;
+    animation-composition: add;
+}
+@keyframes ogx_popup_fade_in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    } 
+} 
+.ogx_popup_fade_out{
+    animation: ogx_popup_fade_out 0.3s ease;
+    transform-origin: center;
+    animation-composition: add;
+}
+@keyframes ogx_popup_fade_out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    } 
+} 
+.ogx_popup_scale_in{
+    animation: ogx_popup_scale_in 0.3s ease;
+    transform-origin: center;
+    animation-composition: add;
+}
+@keyframes ogx_popup_scale_in {
+    0% {
+        transform: scale(.5);
+    }
+    100% {
+        transform: scale(1);
+    } 
+} 
+.ogx_popup_scale_out{
+    animation: ogx_popup_scale_in 0.3s ease;
+    transform-origin: center;
+    animation-composition: add;
+}
+@keyframes ogx_popup_scale_out {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.5);
+    } 
+} 
+.ogx_popup_slide_in{
+    animation: ogx_popup_slide_in 0.3s ease;
+    transform-origin: center;
+    animation-composition: add;
+}
+@keyframes ogx_popup_slide_in {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(50%);
+    } 
+} 
+.ogx_popup_slide_out{
+    animation: ogx_popup_slide_out 0.3s ease;
+    transform-origin: center;
+    animation-composition: add;
+}
+@keyframes ogx_popup_slide_out {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    } 
+} .ogx_quad_swiper{ 
 }
 .ogx_quad_swiper_anim{
 	transition:all 200ms;
