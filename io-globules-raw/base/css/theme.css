@@ -702,6 +702,230 @@ input:-webkit-autofill:active {
 }
 .ogx_stacked_tree_anim{
     transition:all 0.2s ease;
+}.ogx_stage{
+    transition:all 0.3s ease;
+    transform-origin:center;   
+    transform-style: preserve-3d;
+    background-color: transparent;  
+    perspective: 1000px;
+}
+.ogx_stage_swap_in{
+    animation: ogx_stage_swap_in 1s ease;
+    transform-origin: center;
+    animation-composition: add;
+    animation-fill-mode: forwards;
+}
+@keyframes ogx_stage_swap_in {
+    0% { 
+        opacity: 0;
+        transform: scale(.8);
+        visibility: visible;  
+    }
+    60%{ 
+        opacity: 1;
+        z-index: 200;  
+        transform: scale(1); 
+    }    
+}  
+
+.ogx_stage_swap_out{
+    animation: ogx_stage_swap_out 1s ease;
+    transform-origin: center;
+    animation-composition: add;
+    animation-fill-mode: forwards;
+}
+@keyframes ogx_stage_swap_out {
+    0% {
+        transform: scale(1);   
+        visibility: visible;        
+    }
+    50%{
+        transform: scale(.8);   
+        z-index: 100;  
+        opacity: 0;
+        visibility: hidden;  
+    }
+    100% {     
+        z-index: 100;  
+        visibility: hidden;  
+    } 
+} 
+
+.ogx_stage_flip_in{
+    animation: ogx_stage_flip_in 1s ease;
+    transform-origin: center;
+    animation-composition: add;
+    animation-fill-mode: forwards;
+}
+@keyframes ogx_stage_flip_in {
+    0% { 
+        position: absolute;
+        backface-visibility: hidden;
+        transform: rotateY(180deg);
+    }
+    100%{ 
+        transform: rotateY(0deg);
+    }    
+}
+
+.ogx_stage_flip_out{
+    animation: ogx_stage_flip_out 1s ease;
+    transform-origin: center;
+    animation-composition: add;
+    animation-fill-mode: forwards;
+}
+@keyframes ogx_stage_flip_out {
+    0% { 
+        position: absolute;
+        backface-visibility: hidden;
+        transform: rotateY(0deg);
+    }
+    100%{ 
+        transform: rotateY(180deg);
+    }    
+}
+
+.ogx_stage_flip_swap_in{
+    animation: ogx_stage_flip_swap_in 1s ease;
+    transform-origin: center;
+    animation-composition: add;
+    animation-fill-mode: forwards;
+}
+@keyframes ogx_stage_flip_swap_in {
+    0% { 
+        opacity: 0;
+        transform: scale(.8) rotateY(180deg);
+        visibility: visible;  
+    }
+    50%{ 
+        position: absolute;
+        backface-visibility: hidden;
+        transform: scale(.8) rotateY(180deg); 
+        opacity: 1;
+        z-index: 200;  
+    } 
+    100%{ 
+        transform: scale(1) rotateY(0deg);
+    }    
+}
+
+.ogx_stage_flip_swap_out{
+    animation: ogx_stage_flip_swap_out 1s ease;
+    transform-origin: center;
+    animation-composition: add;
+    animation-fill-mode: forwards;
+}
+@keyframes ogx_stage_flip_swap_out {
+    0% { 
+        transform: scale(1) rotateY(0deg);  
+        visibility: visible;       
+        position: absolute;
+        backface-visibility: hidden;
+    }     
+    50%{
+        transform: scale(.8) rotateY(0deg);     
+        z-index: 100;          
+    }
+    100% {     
+        z-index: 100;  
+        opacity: 0;
+        visibility: hidden;  
+        transform: scale(.8) rotateY(180deg);
+    }   
+}
+
+.ogx_stage_slide_in{
+    animation: ogx_stage_slide_in 0.5s ease;
+    transform-origin: center;
+    animation-composition: add;
+    animation-fill-mode: forwards;
+}
+@keyframes ogx_stage_slide_in {
+    0% { 
+        transform: translateX(100vw);
+    } 
+    100% {  
+        transform: translateX(0px);
+    }   
+}
+
+.ogx_stage_slide_out{
+    animation: ogx_stage_slide_out 0.5s ease;
+    transform-origin: center;
+    animation-composition: add;
+    animation-fill-mode: forwards;
+}
+@keyframes ogx_stage_slide_out {
+    0% { 
+        transform: translateX(0px);
+    }
+    100% {     
+        transform: translateX(-100vw);
+    }   
+}
+
+.ogx_stage_shuffle_in{
+    animation: ogx_stage_shuffle_in 1.3s ease;
+    transform-origin: center;
+    animation-composition: add;
+    animation-fill-mode: forwards;
+}
+@keyframes ogx_stage_shuffle_in {
+    0% { 
+        visibility: hidden;
+        transform: scale(1);
+        z-index: 100;
+    }
+    25%{
+        transform: scale(0.8);
+        z-index: 100;
+    }
+    49%{
+        z-index: 100;
+    }
+    50%{
+        visibility: visible;
+        transform: scale(0.5) translateX(50vw);
+        z-index: 200;
+    }
+    75%{       
+        transform: scale(0.5) translateX(0px);
+        z-index: 200;
+    }
+    100%{ 
+        transform: scale(1) translateX(0px);
+        z-index: 200;
+    }     
+}
+
+.ogx_stage_shuffle_out{
+    animation: ogx_stage_shuffle_out 1.3s ease;
+    transform-origin: center;
+    animation-composition: add;
+    animation-fill-mode: forwards;
+}
+@keyframes ogx_stage_shuffle_out {
+    0% { 
+        transform: scale(1);
+        z-index: 200;
+    }
+    25%{
+        transform: scale(0.8);
+        z-index: 200;
+    }
+    50%{
+        transform: scale(0.5) translateX(-50vw);
+        z-index: 100;     
+    }
+    75%{
+        transform: scale(0.5) translateX(0px);
+        z-index: 100;       
+    }
+    100%{ 
+        transform: scale(0.5) translateX(0px);
+        visibility: hidden;
+        z-index: 100;
+    }     
 }.ogx_switch{	
     width:150px;
 }
