@@ -210,7 +210,9 @@
     transform:translateY(-50%);
     text-align:center;
 }.ogx_carousel > .carousel_dots{
-    margin-bottom:-20px;
+    margin-top: -25px;
+    z-index: 9999;
+    position: relative;
 }
 .ogx_carousel_anim{
     transition:all 0.3s ease-out;
