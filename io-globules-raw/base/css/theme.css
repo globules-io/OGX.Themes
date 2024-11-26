@@ -1036,30 +1036,29 @@ input:-webkit-autofill:active {
 }.ogx_tags{   
 	padding:10px 5px 10px 5px;
 }
-.ogx_tags input[type=text]{
+.ogx_tags .ogx_tags_input > input{
     padding-bottom:5px;
     padding-left:5px;
     width:100%;
     font-size:16px;
     font-family:Roboto-Light;
 }
-.ogx_tags .ogx_tags_tag{	
+.ogx_tags .ogx_tag{	
 	margin:0px 0px 5px 5px;
-	border-radius:2px;
+	border-radius:4px;
 	font-size:16px;	
 	font-family:Roboto-Regular;	
 	padding:6px 12px 6px 12px;	
 }
-.ogx_tags .ogx_tags_tags_container{	
-	margin-top:5px;	
-}
-.ogx_tags .ogx_tags_remove{   
-    width:20px;
-    height:20px;
-    vertical-align:text-top;
-    margin-left:10px;	
-    background-size:cover;
-    background-position:center;    
+.ogx_tags .ogx_tag > .ogx_tag_remove{   
+    margin-left: 10px;
+    width: 22px;
+    min-width: 22px;
+    height: 22px;
+    vertical-align: top;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }.ogx_theater{  
     padding:20px 0px 20px 20px;
     background-repeat:no-repeat;

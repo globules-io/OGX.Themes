@@ -367,18 +367,14 @@ input::placeholder{
 }
 .ogx_tabs_tab_grad{    
     background: linear-gradient(90deg, rgba(238,238,238,0) 0%, rgba(238,238,238,1) 60%);
-}.ogx_tags input[type=text]{    
+}.ogx_tags .ogx_tags_input > input{    
     border-bottom:1px solid #333333;
 }
-.ogx_tags .ogx_tags_tag{		
+.ogx_tags .ogx_tag{		
 	background-color:#436963;
     color:#DDD;
 }
-.ogx_tags .ogx_tags_tags_container{
-	background-color:#FFF;
-	border-top:1px solid #DDD;
-}
-.ogx_tags .ogx_tags_remove{      
+.ogx_tags .ogx_tag_remove{      
     background-image:url('../../dark/img/remove.svg');    
 }.ogx_theater{  
     background-image:url('../../../../img/theater.jpg');   
