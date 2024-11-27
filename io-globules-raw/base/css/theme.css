@@ -661,32 +661,27 @@ input:-webkit-autofill:active {
 	transition:all 200ms;
 }
 .ogx_roulette{	
-	width:100%;   
-    margin-top:0;
-    margin-right:10px;    
-    height:42px;
+	width: 100%;   
+    margin-top: 0;
+    margin-right: 10px;    
+    height: 42px;
 }
 .ogx_roulette_block_label{
-	text-align:left;
-    padding-left:10px;
-    font-size:16px;
-	font-family:Roboto-Regular; 
-    text-transform:capitalize;
+	text-align: left;
+    padding-left: 10px;
+    font-size: 16px;
+	font-family: Roboto-Regular; 
+    text-transform: capitalize;
 }
 .ogx_roulette_icon{
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center;   
+    width: 26px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;   
 }
 .ogx_roulette_disabled{
-    opacity:0.5;
-}
-.ogx_roulette_container{
-    width:calc(100% - 40px);
-}
-.ogx_roulette_icon{  
-    width:30px;
-    height:42px;    
+    opacity: 0.5;
 }.ogx_scroller_track{   
     left:calc(100% - 3px);  
 }
@@ -1173,6 +1168,8 @@ input:-webkit-autofill:active {
 }
 .ogx_tree_item > .ogx_tree_item_arrow_disabled{
 	opacity:0.3;
+}.ogx_uxi_disabled{
+    opacity: 0.4;
 }.ogx_window{	
    
 }
