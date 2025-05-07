@@ -238,7 +238,7 @@ input[type=text]:focus,  input[type=password]:focus, input[type=email]:focus, in
     color:#111;
 }
 input[type=text]:invalid,  input[type=password]:invalid, input[type=email]:invalid, input[type=tel]:invalid, input[type=number]:invalid{
-    border-bottom:1px solid rgb(139, 7, 7) !important;
+    border-bottom:1px solid rgb(139, 7, 7);
 }
 /*
 input[type=range]::-webkit-slider-thumb {   
@@ -313,6 +313,9 @@ input::placeholder{
 }
 .ogx_roulette_icon{
     background-image:url('../../dark/img/loop.svg');
+}
+.ogx_roulette_input{  
+    color: #888 !important;    
 }.ogx_scroller_track_button{   
     background-color:rgba(0, 0, 0, 0.9);
 }.ogx_stacked_tree_level_prev{

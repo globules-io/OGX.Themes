@@ -283,8 +283,7 @@
 .ogx_dynamic_list_swiper_side_right{
 }
 .ogx_dynamic_list_swiper_side_left{
-}
-.ogx_grid_swiper{ 
+}.ogx_grid_swiper{ 
 
 }
 .ogx_grid_swiper_cell{
@@ -423,9 +422,8 @@ input:-webkit-autofill:active {
 .ogx_nest_list_mask{  
     transition:transform 0.2s;
 }.ogx_popup{   
-	border-radius:4px;
-    transition:all 0.3s ease;
-    transform-origin:center;
+	border-radius:4px;    
+    transform-origin: center;
 }
 .ogx_popup_head{
     height:40px;
@@ -506,6 +504,7 @@ input:-webkit-autofill:active {
 .ogx_popup_fade_in{
     animation: ogx_popup_fade_in 0.3s ease;
     transform-origin: center;
+    transition: none;
     animation-composition: add;
 }
 @keyframes ogx_popup_fade_in {
@@ -519,6 +518,7 @@ input:-webkit-autofill:active {
 .ogx_popup_fade_out{
     animation: ogx_popup_fade_out 0.3s ease;
     transform-origin: center;
+    transition: none;
     animation-composition: add;
 }
 @keyframes ogx_popup_fade_out {
