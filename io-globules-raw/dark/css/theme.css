@@ -315,7 +315,7 @@ input[type=range]::-webkit-slider-runnable-track {
 input:placeholder-shown{
     border-bottom-color:#333 !important;
 }
-input:disabled{
+input:not([type="submit"]):disabled{
     border-bottom-color:#282828 !important;
     color:#777;
 }
