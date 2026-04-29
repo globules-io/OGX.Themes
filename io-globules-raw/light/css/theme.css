@@ -443,21 +443,16 @@ input::placeholder{
 }
 .ogx_window_main_icon_top{	
 	background-image:url('../../light/img/down.svg');
-    filter:invert(1);
 }
 .ogx_window_main_icon_left{	
 	background-image:url('../../light/img/right.svg');
-    filter:invert(1);
 }
 .ogx_window_main_icon_right{
     background-image:url('../../light/img/left.svg');
-    filter:invert(1);
 }
 .ogx_window_main_icon_bottom{
     background-image:url('../../light/img/up.svg');
-    filter:invert(1);
 }
 .ogx_window_main_icon_close{  
-	background-image:url('../../light/img/close.svg');	
-    filter:invert(1);	
+	background-image:url('../../light/img/close.svg');		
 }
